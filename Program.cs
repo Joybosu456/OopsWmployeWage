@@ -6,9 +6,10 @@ namespace OpsEmployeeWage
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Welcome to Employee Wage problome :");
+           // Console.WriteLine("Welcome to Employee Wage problome :");
 
-            
+            CheckEmployee check=new CheckEmployee();
+            check.EmployeePresentOrNot();
 
         }
     }
