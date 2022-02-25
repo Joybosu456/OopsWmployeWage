@@ -14,9 +14,12 @@ namespace OpsEmployeeWage
             //OopsEmpWage Wage =new OopsEmpWage();
             //Wage.CalEmpWage();
 
-            PartTimeEmpWage PartTime=new PartTimeEmpWage();
-            PartTime.CalculateWage();
+            //PartTimeEmpWage PartTime=new PartTimeEmpWage();
+            //PartTime.CalculateWage();
 
+            OopsSwitchCase Sc=new OopsSwitchCase();
+            Sc.CheckEmployUsingSwitchCase();
+            
         }
     }
 }
