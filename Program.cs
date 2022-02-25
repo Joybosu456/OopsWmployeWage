@@ -1,35 +1,16 @@
 ﻿using System;
 
-namespace OpsEmployeeWage
+namespace EmployWageMulti
 {
     class Program
     {
         static void Main(string[] args)
         {
-            // Console.WriteLine("Welcome to Employee Wage problome :");
-
-            //CheckEmployee check=new CheckEmployee();
-            //check.EmployeePresentOrNot();
-
-            //OopsEmpWage Wage =new OopsEmpWage();
-            //Wage.CalEmpWage();
-
-            //PartTimeEmpWage PartTime=new PartTimeEmpWage();
-            //PartTime.CalculateWage();
-
-            //OopsSwitchCase Sc=new OopsSwitchCase();
-            //Sc.CheckEmployUsingSwitchCase();
-
-            //MonthlyWage Month=new MonthlyWage();
-            //Month.OopsMonthlyWage();
-
-            //TillEndWage Till=new TillEndWage();
-            //Till.EmpPerMonth();
-
-            RefactorCode re=new RefactorCode();
-            re.ComputEmployeeWage();
-
-
+            CompaneyWage EmployWageobj = new CompaneyWage();
+            EmployWageobj.CalEmpWage();
+            Console.WriteLine(EmployWageobj.Companey);
+            Console.WriteLine(EmployWageobj.Companey_Name);
+            Console.WriteLine(EmployWageobj.Companey_Two);
         }
     }
 }
