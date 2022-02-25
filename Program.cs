@@ -23,8 +23,11 @@ namespace OpsEmployeeWage
             //MonthlyWage Month=new MonthlyWage();
             //Month.OopsMonthlyWage();
 
-            TillEndWage Till=new TillEndWage();
-            Till.EmpPerMonth();
+            //TillEndWage Till=new TillEndWage();
+            //Till.EmpPerMonth();
+
+            RefactorCode re=new RefactorCode();
+            re.ComputEmployeeWage();
 
 
         }
