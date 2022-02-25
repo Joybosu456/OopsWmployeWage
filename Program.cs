@@ -20,8 +20,11 @@ namespace OpsEmployeeWage
             //OopsSwitchCase Sc=new OopsSwitchCase();
             //Sc.CheckEmployUsingSwitchCase();
 
-            MonthlyWage Month=new MonthlyWage();
-            Month.OopsMonthlyWage();
+            //MonthlyWage Month=new MonthlyWage();
+            //Month.OopsMonthlyWage();
+
+            TillEndWage Till=new TillEndWage();
+            Till.EmpPerMonth();
 
 
         }
