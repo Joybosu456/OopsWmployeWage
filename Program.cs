@@ -11,8 +11,11 @@ namespace OpsEmployeeWage
             //CheckEmployee check=new CheckEmployee();
             //check.EmployeePresentOrNot();
 
-            OopsEmpWage Wage =new OopsEmpWage();
-            Wage.CalEmpWage();
+            //OopsEmpWage Wage =new OopsEmpWage();
+            //Wage.CalEmpWage();
+
+            PartTimeEmpWage PartTime=new PartTimeEmpWage();
+            PartTime.CalculateWage();
 
         }
     }
